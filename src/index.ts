@@ -69,8 +69,8 @@ let
     snakePoints.forEach(p => drawPoint(c, p, `#fff`));
 
     c.font = '1px Verdana';
-		c.fillStyle = '#fff';
-		c.fillText(eatenCount as any, 1, 1.5);
+    c.fillStyle = '#fff';
+    c.fillText(eatenCount as any, 1, 1.5);
 
 
     setTimeout(loop, 100 * (0.999 ** (eatenCount + 1)));
